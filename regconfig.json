@@ -1,0 +1,23 @@
+{
+  "core": {
+    "workingDir": ".reg",
+    "actualDir": "directory_contains_actual_images",
+    "thresholdRate": 0,
+    "addIgnore": true,
+    "ximgdiff": {
+      "invocationType": "client"
+    }
+  },
+  "plugins": {
+    "reg-keygen-git-hash-plugin": {},
+    "reg-notify-github-plugin": {
+      "clientId": "MzI3tDAwtTCz0C/NTU2p1Lc0tzSyMDHSL0nMTszITC81NjICAA=="
+    },
+    "reg-notify-slack-plugin": {
+      "webhookUrl": "https://hooks.slack.com/services/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"
+    },
+    "reg-publish-s3-plugin": {
+      "bucketName": "reg-publish-bucket-73b8a035-b968-48c1-87c6-9ff78fb0eb0a"
+    }
+  }
+}

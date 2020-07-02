@@ -1,3 +1,4 @@
+# coding: utf-8
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -39,6 +40,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  gem "turnip"
+  # gem 'konacha'
+  gem "poltergeist"
+  #gem 'capybara'
+  # Capybaraが利用するドライバを任意に追加する
+  #gem 'selenium-webdriver'
+  #gem 'capybara-webkit', '>= 1.15.1'
 end
 
 group :development do
