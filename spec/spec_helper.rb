@@ -1,3 +1,7 @@
+require 'capybara/rspec'
+# remember: you must require 'capybara/rspec' first
+require 'capybara-screenshot/rspec'
+
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
