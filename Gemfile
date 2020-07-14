@@ -66,6 +66,8 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
   gem 'capybara-screenshot', :group => :test
+  gem 'twitter'
+
 
 end
 
