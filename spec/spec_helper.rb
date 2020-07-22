@@ -10,7 +10,7 @@ require 'rspec/rails'
 
 ActiveRecord::Migration.maintain_test_schema!
 
-Capybara::Driver::Base#save_screenshot
+#Capybara::Driver::Base#save_screenshot
 
 RSpec.configure do |config|
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
